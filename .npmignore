@@ -1,0 +1,6 @@
+.idea/
+node_modules/
+npm-debug.log
+package-lock.json
+CONTRIBUTING.md
+CHANGELOG.md

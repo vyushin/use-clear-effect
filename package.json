@@ -1,0 +1,44 @@
+{
+  "name": "use-clear-effect",
+  "version": "1.0.1",
+  "description": "use-clear-effect is the react hook allowing get previous dependency values from effect.",
+  "author": "Evgeny Vyushin <e@vyushin.ru> (https://github.com/vyushin)",
+  "contributors": [
+    "Evgeny Vyushin <e@vyushin.ru> (https://github.com/vyushin)"
+  ],
+  "maintainers": [
+    "Evgeny Vyushin <e@vyushin.ru> (https://github.com/vyushin)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyushin/use-clear-effect"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/vyushin/use-clear-effect/issues"
+  },
+  "homepage": "https://github.com/vyushin/use-clear-effect",
+  "main": "./src/use-clear-effect.js",
+  "types": "./src/use-clear-effect.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react hook",
+    "react hooks",
+    "react-hook",
+    "use",
+    "use react",
+    "use-react",
+    "effect",
+    "use effect",
+    "use-effect",
+    "hook",
+    "hooks"
+  ],
+  "directories": {
+    "doc": "./README.md"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
