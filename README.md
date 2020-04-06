@@ -19,7 +19,6 @@
 ```jsx
 import { default as React, useState, useCallback } from "react";
 import useClearEffect from "use-clear-effect";
-import "./styles.css";
 
 export default function App() {
   const [fooValue, setFooValue] = useState("");
@@ -30,14 +29,17 @@ export default function App() {
     prev => {
       const resultObj = {
         current: {
+          description: "Current state values",
           fooValue,
           barValue
         },
         previous: {
+          description: "Previous state values",
           fooValue: prev[0],
           barValue: prev[1]
         },
         changed: {
+          description: "True if previous value is not equal current value",
           fooValue: fooValue !== prev[0],
           barValue: barValue !== prev[1]
         }
@@ -47,34 +49,10 @@ export default function App() {
     [fooValue, barValue]
   );
 
-  const handleFooValueChange = useCallback(
-    e => setFooValue(e.target.value),
-    []
-  );
-  const handleBarValueChange = useCallback(
-    e => setBarValue(e.target.value),
-    []
-  );
-
   return (
-    <div className="App">
-      <h1>use-clear-effect demo</h1>
-      <label class="label">
-        Foo:
-        <br />
-        <input value={fooValue} onInput={handleFooValueChange} />
-      </label>
-      <br />
-      <label class="label">
-        Bar:
-        <br />
-        <input value={barValue} onInput={handleBarValueChange} />
-      </label>
-      <pre class="pre">{JSON.stringify(result, null, "\t")}</pre>
-    </div>
+    <div></div>
   );
 }
-
 ````
 
 ## Contributing

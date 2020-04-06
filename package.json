@@ -1,6 +1,6 @@
 {
   "name": "use-clear-effect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "use-clear-effect is the react hook allowing get previous dependency values from effect.",
   "author": "Evgeny Vyushin <e@vyushin.ru> (https://github.com/vyushin)",
   "contributors": [
